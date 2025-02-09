@@ -13,7 +13,7 @@ pipeline{
         stage('Docker Image Build'){
             steps{
                 script{
-                    bat 'docker build -t jenkins-demo-0.0.1-SNAPSHOT .'
+                    bat 'docker build -t jenkins-demo-0.0.1-snapshot .'
                 }
             }
         }
